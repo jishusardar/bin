@@ -75,7 +75,36 @@ vector<int> PostTraversal(TreeNode* root){
     return ans;
 }
 vector<int> inorderTraversal(TreeNode* root) {
+    //vector<int>ans for storing the answer
     vector<int>ans;
+    //for in order traversal we need the count the no of occurance of the element
+    //for this we take a stack that represent the no of occurance
+    stack<bool>freq;
+    stack<TreeNode*>st;
+    st.push(root);
+    freq.push(0);
+    while (!st.empty()) {
+        TreeNode* temp=st.top();
+        st.pop();
+        bool isRepeat=freq.top();
+        freq.pop();
+        if (!isRepeat) {
+            if (temp->right) {
+                st.push(temp->right);
+                freq.push(0);
+            }
+            st.push(temp);
+            freq.push(1);
+            if (temp->left) {
+                st.push(temp->left);
+                freq.push(0);
+            }
+        }
+        else {
+            ans.push_back(temp->data);
+        }
+    }
+    return ans;
 
 }
 int main() {
@@ -96,4 +125,9 @@ int main() {
     cout<<"The Preorder iterative Traversal of The Tree is: "<<endl;
     for (int i=0;i<ans.size();i++)
         cout<<ans[i]<<" ";
+    cout<<endl;
+    cout<<"The inorder Traversal of The Tree is: "<<endl;
+    vector<int>ans3=inorderTraversal(root);
+    for (int i=0;i<ans3.size();i++)
+        cout<<ans3[i]<<" ";
 }
