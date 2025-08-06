@@ -1,6 +1,6 @@
 //
 // Created by jishu on 07-08-2025.
-//build min heap
+//build min heap so each nodes takes log(n) to create and delete so overall for creation and Deletion O(nlogn)
 #include <iostream>
 using namespace std;
 class Minheap {

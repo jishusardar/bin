@@ -1,6 +1,6 @@
 //
 // Created by jishu on 07-08-2025.
-//build max heap
+//build max heap so the creation and deletion both takes overall 0(nlogn)
 #include <iostream>
 #include <vector>
 using namespace std;
