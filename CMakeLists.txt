@@ -202,4 +202,6 @@ add_executable(codes
         sqrt.cpp
         welcome.cpp
         "Heap/Merge K sorted linked lists.cpp"
-        Heap/mergeksortedarr.cpp)
+        Heap/mergeksortedarr.cpp
+        Heap/smallestrangecoveringelformklists.cpp
+        Heap/constructtargetarraymulsum.cpp)
