@@ -204,4 +204,6 @@ add_executable(codes
         "Heap/Merge K sorted linked lists.cpp"
         Heap/mergeksortedarr.cpp
         Heap/smallestrangecoveringelformklists.cpp
-        Heap/constructtargetarraymulsum.cpp)
+        Heap/constructtargetarraymulsum.cpp
+        SlidingWindow/zerosumsubarray.cpp
+        SlidingWindow/sumofsubarrayqualstok.cpp)
