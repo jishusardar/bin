@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.31.6)
 project(codes)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -206,4 +206,8 @@ add_executable(codes
         Heap/smallestrangecoveringelformklists.cpp
         Heap/constructtargetarraymulsum.cpp
         SlidingWindow/zerosumsubarray.cpp
-        SlidingWindow/sumofsubarrayqualstok.cpp)
+        SlidingWindow/sumofsubarrayqualstok.cpp
+        SlidingWindow/subarraysumsdivsbyk.cpp
+        SlidingWindow/subarrayproductslessthank.cpp
+        SlidingWindow/minimumsizesubarraysum.cpp
+        SlidingWindow/minimumwindowsubstring.cpp)
