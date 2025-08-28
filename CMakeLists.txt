@@ -210,4 +210,7 @@ add_executable(codes
         SlidingWindow/subarraysumsdivsbyk.cpp
         SlidingWindow/subarrayproductslessthank.cpp
         SlidingWindow/minimumsizesubarraysum.cpp
-        SlidingWindow/minimumwindowsubstring.cpp)
+        SlidingWindow/minimumwindowsubstring.cpp
+        SlidingWindow/lenthoflongestsubarraywithatmostk.cpp
+        SlidingWindow/countthesubarraymaxelementappearatleastktimes.cpp
+        SlidingWindow/subarraywithkdiffints.cpp)
