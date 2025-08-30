@@ -213,4 +213,5 @@ add_executable(codes
         SlidingWindow/minimumwindowsubstring.cpp
         SlidingWindow/lenthoflongestsubarraywithatmostk.cpp
         SlidingWindow/countthesubarraymaxelementappearatleastktimes.cpp
-        SlidingWindow/subarraywithkdiffints.cpp)
+        SlidingWindow/subarraywithkdiffints.cpp
+        SlidingWindow/NumberofsubarrayshavingsumlessthanK.cpp)
