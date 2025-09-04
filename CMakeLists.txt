@@ -214,4 +214,6 @@ add_executable(codes
         SlidingWindow/lenthoflongestsubarraywithatmostk.cpp
         SlidingWindow/countthesubarraymaxelementappearatleastktimes.cpp
         SlidingWindow/subarraywithkdiffints.cpp
-        SlidingWindow/NumberofsubarrayshavingsumlessthanK.cpp)
+        SlidingWindow/NumberofsubarrayshavingsumlessthanK.cpp
+        graphs/graphimplementations.cpp
+        graphs/graphimplementationsadjlist.cpp)
