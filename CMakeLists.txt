@@ -216,4 +216,7 @@ add_executable(codes
         SlidingWindow/subarraywithkdiffints.cpp
         SlidingWindow/NumberofsubarrayshavingsumlessthanK.cpp
         graphs/graphimplementations.cpp
-        graphs/graphimplementationsadjlist.cpp)
+        graphs/graphimplementationsadjlist.cpp
+        graphs/graphtraversalBFS.cpp
+        graphs/graphtraversalDFSrecursion.cpp
+        graphs/graphtraversalDFSstack.cpp)
