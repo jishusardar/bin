@@ -219,4 +219,6 @@ add_executable(codes
         graphs/graphimplementationsadjlist.cpp
         graphs/graphtraversalBFS.cpp
         graphs/graphtraversalDFSrecursion.cpp
-        graphs/graphtraversalDFSstack.cpp)
+        graphs/graphtraversalDFSstack.cpp
+        graphs/detect_cycle_in_undirected_graph_using_DFS.cpp
+        graphs/detect_cycle_in_undirected_graph_using_BFS.cpp)
