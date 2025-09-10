@@ -223,4 +223,6 @@ add_executable(codes
         graphs/detect_cycle_in_undirected_graph_using_DFS.cpp
         graphs/detect_cycle_in_undirected_graph_using_BFS.cpp
         graphs/topologicalsort_DFS.cpp
-        "graphs/topologicalsort_BFS(KahnAlgorithm).cpp")
+        "graphs/topologicalsort_BFS(KahnAlgorithm).cpp"
+        graphs/detect_cycle_in_DG_DFS.cpp
+        graphs/detect_cycle_in_DG_BFS.cpp)
