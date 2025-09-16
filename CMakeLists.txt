@@ -227,4 +227,10 @@ add_executable(codes
         graphs/detect_cycle_in_DG_DFS.cpp
         graphs/detect_cycle_in_DG_BFS.cpp
         graphs/detect_Bipartite_graph_using_BFS.cpp
-        graphs/detect_Bipartite_graph_using_DFS.cpp)
+        graphs/detect_Bipartite_graph_using_DFS.cpp
+        graphs/covidspread.cpp
+        graphs/find_the_number_of_islands.cpp
+        graphs/Replace_Os_with_x.cpp
+        graphs/rottenoranges.cpp
+        graphs/X_Total_Shapes.cpp
+        graphs/Number_of_province.cpp)
