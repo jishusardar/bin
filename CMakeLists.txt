@@ -233,4 +233,10 @@ add_executable(codes
         graphs/Replace_Os_with_x.cpp
         graphs/rottenoranges.cpp
         graphs/X_Total_Shapes.cpp
-        graphs/Number_of_province.cpp)
+        graphs/Number_of_province.cpp
+        "graphs/prerequisite_task_BFS(KahnAlgo).cpp"
+        graphs/prerequisite_task_DFS.cpp
+        graphs/Course_Schedule_BFS.cpp
+        graphs/Course_Schedule_DFS.cpp
+        graphs/Alien_Dictionary.cpp
+        graphs/parallel_course.cpp)
