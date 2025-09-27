@@ -20,12 +20,17 @@ vector<int>Bellman_Ford(int V,vector<vector<int>>&edges,int src) {
                 check=1;
             }
         }
+        //if there is no changes in dist in a complete rotation that means we already got the answer
         if (!check)
             return dist;
+        //after v-1 rotation if there is still changes in dist vector that means it contains negative cycle and we never going to find answer
         if (i==V-1&&check)
             return {-1};
     }
     return dist;
+    //time complexity:
+    //worst case: O(V*E)
+    //Best Case :O(E)
 }
 int main() {
     vector<int>Vertex={5,4};
