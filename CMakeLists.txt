@@ -246,4 +246,5 @@ add_executable(codes
         graphs/DijkstraAlgorithm_Dense_graph.cpp
         graphs/DijkstraAlgorithm_sparse_Graph.cpp
         graphs/shortest_path_in_weighted_undirected_grpah.cpp
-        graphs/Bellman_ford.cpp)
+        graphs/Bellman_ford.cpp
+        graphs/Floyd_Warshall.cpp)
