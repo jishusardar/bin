@@ -247,4 +247,7 @@ add_executable(codes
         graphs/DijkstraAlgorithm_sparse_Graph.cpp
         graphs/shortest_path_in_weighted_undirected_grpah.cpp
         graphs/Bellman_ford.cpp
-        graphs/Floyd_Warshall.cpp)
+        graphs/Floyd_Warshall.cpp
+        graphs/knightwalk.cpp
+        graphs/ShortestSourcetoDestinationPath.cpp
+        graphs/find_the_path_Exist_DFS.cpp)
