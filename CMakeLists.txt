@@ -250,4 +250,5 @@ add_executable(codes
         graphs/Floyd_Warshall.cpp
         graphs/knightwalk.cpp
         graphs/ShortestSourcetoDestinationPath.cpp
-        graphs/find_the_path_Exist_DFS.cpp)
+        graphs/find_the_path_Exist_DFS.cpp
+        graphs/Eulerpath_or_Circuit_or_not.cpp)
