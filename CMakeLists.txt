@@ -252,4 +252,5 @@ add_executable(codes
         graphs/ShortestSourcetoDestinationPath.cpp
         graphs/find_the_path_Exist_DFS.cpp
         graphs/Eulerpath_or_Circuit_or_not.cpp
-        graphs/circle_of_strings.cpp)
+        graphs/circle_of_strings.cpp
+        graphs/Prims_Algorithm.cpp)
