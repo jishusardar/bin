@@ -23,10 +23,15 @@ int Detect(vector<int>Adj[],int V) {
         return 0;
     vector<bool>visited(V,0);
     for (int i=0;i<V;i++) {
-        if (!visited[i]) {
+        if (degree[i]) {
             DFS(Adj,i,visited);
             break;
         }
+    }
+    //if the graph is disconnected and all disconnected cannot be visited so that kind of graphs will not considered eulerian paths
+    for(int i=0;i<V;i++){
+        if(!degree[i]&&visited[i])
+            return 0;
     }
     if (odd_deg)
         return 1;
