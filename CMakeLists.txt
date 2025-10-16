@@ -255,4 +255,5 @@ add_executable(codes
         graphs/circle_of_strings.cpp
         graphs/Prims_Algorithm.cpp
         tools/converttotest.cpp
-        tools/converttotest.h)
+        tools/converttotest.h
+        graphs/kruskal_algorithm.cpp)
