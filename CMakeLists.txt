@@ -256,4 +256,41 @@ add_executable(codes
         graphs/Prims_Algorithm.cpp
         tools/converttotest.cpp
         tools/converttotest.h
-        graphs/kruskal_algorithm.cpp)
+        graphs/kruskal_algorithm.cpp
+        Basics/decimal_to_binary.cpp
+        Basics/binary_to_decimal.cpp
+        Basics/Add_digits.cpp
+        Basics/Leap_Year.cpp
+        Basics/Reverse_Digits.cpp
+        Basics/power_of_2.cpp
+        Basics/sqrt.cpp
+        Basics/pallindrome.cpp
+        Basics/compliment_of_a_no.cpp
+        Basics/convert_capital_to_smaller.cpp
+        Basics/armstrong_no.cpp
+        Basics/reactangle.cpp
+        Basics/bishop_move.cpp
+        Basics/nim_game.cpp
+        Basics/linear_search.cpp
+        Basics/reverse_array.cpp
+        Basics/Find_2ndmax.cpp
+        Basics/Missing_no.cpp
+        Basics/fibonachi_series.cpp
+        Basics/rotate_by_1.cpp
+        sorting/insertion_sorting.cpp
+        sorting/bubble_sort.cpp
+        sorting/selection_sort.cpp
+        Binary_Search/Find_Element.cpp
+        Binary_Search/First_and_Last_Position_Target.cpp
+        Binary_Search/Search_Inert_Positions.cpp
+        Binary_Search/sqrt.cpp
+        Binary_Search/Peak_Index.cpp
+        Binary_Search/Find_Minimum_Rotated_array.cpp
+        Binary_Search/search_in_a_rotated_array.cpp
+        Binary_Search/kth_missing_positive_Integer.cpp
+        Binary_Search/Book_Allocation.cpp
+        Binary_Search/painter_allocation.cpp
+        Binary_Search/Ship_packages.cpp
+        Binary_Search/split_array_in_largest_sum.cpp
+        Binary_Search/Aggressive_Cows.cpp
+        Binary_Search/KoKo_Eating_Banana.cpp)
