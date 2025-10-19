@@ -293,4 +293,30 @@ add_executable(codes
         Binary_Search/Ship_packages.cpp
         Binary_Search/split_array_in_largest_sum.cpp
         Binary_Search/Aggressive_Cows.cpp
-        Binary_Search/KoKo_Eating_Banana.cpp)
+        Binary_Search/KoKo_Eating_Banana.cpp
+        Two_Pointer/segregate_0_and_1.cpp
+        Two_Pointer/Two_sums.cpp
+        Two_Pointer/pair_with_given_difference.cpp
+        Prefix_and_Suffix/Divide_array_in_2_Subarray_with_Equal_Sum.cpp
+        Prefix_and_Suffix/largest_sum_contigous.cpp
+        Prefix_and_Suffix/kadane_Algorithm.cpp
+        Prefix_and_Suffix/Max_Difference_Between_two_Elements.cpp
+        Prefix_and_Suffix/Trapping_rain_water_problem.cpp
+        Prefix_and_Suffix/Threesum_Problem.cpp
+        Prefix_and_Suffix/Foursum_Problem.cpp
+        Prefix_and_Suffix/container_with_Most_Water.cpp
+        Matrix/print_matrix_colm_wise.cpp
+        Matrix/Add_Matrix.cpp
+        "Matrix/print_row_index_with_maximum sum.cpp"
+        Matrix/print_sum_of_diagonal.cpp
+        Matrix/reverse_each_row_of_matrix.cpp
+        Matrix/wave_form.cpp
+        Matrix/spiral_form.cpp
+        Matrix/Transpose_of_matrix.cpp
+        "Matrix/printing_of_diagonal.cpp"
+        Matrix/rotate_matrix_90.cpp
+        Matrix/rotate_matrix_by_180.cpp
+        Matrix/Rotate_matrix_90_anticlock.cpp
+        Matrix/rotate_matrix_by_k_times.cpp
+        Matrix/rotate_matrix_k_times_anticlock.cpp
+        Matrix/Binary_search_in_2D.cpp)
