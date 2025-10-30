@@ -319,4 +319,5 @@ add_executable(codes
         Matrix/Rotate_matrix_90_anticlock.cpp
         Matrix/rotate_matrix_by_k_times.cpp
         Matrix/rotate_matrix_k_times_anticlock.cpp
-        Matrix/Binary_search_in_2D.cpp)
+        Matrix/Binary_search_in_2D.cpp
+        graphs/bridge_in_a_graph.cpp)
