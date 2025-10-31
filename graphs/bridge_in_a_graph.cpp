@@ -4,6 +4,8 @@
 //the problem is called critical connections means the connections if removed then heavily effect the whole server system
 #include<iostream>
 #include <vector>
+
+#include "../tools/converttotest.h"
 using namespace std;
 void DFS(int node,int parent,vector<int>&disc,vector<int>&low,int &count,vector<bool>&visited,vector<vector<int>>&adj,vector<vector<int>>&ans) {
     disc[node]=low[node]=count;
@@ -42,6 +44,9 @@ vector<vector<int>> Critical_connections(int n,vector<vector<int>>connections) {
     return bridge;
 }
 int main() {
+    // vector<string>adj={"[[0,1],[1,2],[2,0],[1,3]]","[[0,1]]"};
+    // converttotest* c1=new converttotest();
+    // cout<<c1->convert();
     vector<int>ns={4,2};
     vector<vector<vector<int>>>adj={{{0,1},{1,2},{2,0},{1,3}},{{0,1}}};
     for (int i=0;i<2;i++) {
