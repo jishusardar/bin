@@ -321,6 +321,8 @@ add_executable(codes
         Matrix/rotate_matrix_k_times_anticlock.cpp
         Matrix/Binary_search_in_2D.cpp
         graphs/bridge_in_a_graph.cpp
-        tools/convert_to_test.cpp
         graphs/Articulation_Points.cpp
+        graphs/Hamiltonian_Path.cpp
+        "graphs/strongly_connected_components(TarjanAlgo).cpp"
+        "graphs/strongly_connected_components(kosaraju Algo).cpp"
 )
