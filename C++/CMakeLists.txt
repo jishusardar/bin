@@ -325,4 +325,9 @@ add_executable(codes
         graphs/Hamiltonian_Path.cpp
         "graphs/strongly_connected_components(TarjanAlgo).cpp"
         "graphs/strongly_connected_components(kosaraju Algo).cpp"
+        Backtracking/NQueenBruteForce.cpp
+        Backtracking/NQueenoptimized.cpp
+        Backtracking/McoloringBruteforce.cpp
+        Backtracking/Mcoloringoptimized.cpp
+        Backtracking/Sudokusolver.cpp
 )
