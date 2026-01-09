@@ -330,4 +330,15 @@ add_executable(codes
         Backtracking/McoloringBruteforce.cpp
         Backtracking/Mcoloringoptimized.cpp
         Backtracking/Sudokusolver.cpp
+        Greedy/Minnumofcoins.cpp
+        Greedy/shopincandystore.cpp
+        Greedy/assignmiceholes.cpp
+        Greedy/Minimumrotationstounlockacircularlock.cpp
+        Greedy/JobSequencingProblem.cpp
+        Greedy/Single-ThreadedCPU.cpp
+        Greedy/fractionalknapsack.cpp
+        Greedy/Non-overlappingIntervals.cpp
+        Greedy/InsertInterval.cpp
+        Greedy/TaskScheduler.cpp
+        Greedy/HuffmanEncoding.cpp
 )
