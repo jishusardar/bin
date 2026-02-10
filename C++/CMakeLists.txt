@@ -341,4 +341,12 @@ add_executable(codes
         Greedy/InsertInterval.cpp
         Greedy/TaskScheduler.cpp
         Greedy/HuffmanEncoding.cpp
+        Dynamic_programing/fibonachi_series_dp.cpp
+        Dynamic_programing/nthstairsbottomup.cpp
+        Dynamic_programing/fibonachi_series_dp_tabulation.cpp
+        Dynamic_programing/nthstairs_tabulation.cpp
+        Dynamic_programing/count_the_no_of_hope.cpp
+        Dynamic_programing/count_the_no_of_hope_tabulation.cpp
+        Dynamic_programing/coins_change.cpp
+        Dynamic_programing/coins_change1.cpp
 )
