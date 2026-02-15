@@ -101,4 +101,3 @@
 //
 //     cout<<dp[n][w];
 // }
-//more optimized

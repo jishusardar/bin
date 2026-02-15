@@ -350,4 +350,5 @@ add_executable(codes
         Dynamic_programing/coins_change.cpp
         Dynamic_programing/coins_change1.cpp
         "Dynamic_programing/0 - 1 Knapsack Problem.cpp"
+        "Dynamic_programing/count_ways_to_Nth_Stair(order_does_not_matter).cpp"
 )
