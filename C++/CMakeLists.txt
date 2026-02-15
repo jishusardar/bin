@@ -349,4 +349,5 @@ add_executable(codes
         Dynamic_programing/count_the_no_of_hope_tabulation.cpp
         Dynamic_programing/coins_change.cpp
         Dynamic_programing/coins_change1.cpp
+        "Dynamic_programing/0 - 1 Knapsack Problem.cpp"
 )
