@@ -101,3 +101,32 @@
 //
 //     cout<<dp[n][w];
 // }
+//knapsack problem space optimized
+// #include<iostream>
+// #include <vector>
+// using namespace std;
+// int knapsackproblem(int w,int wt[],int val[],int n) {
+//     vector<int>dp(w+1,0);
+//     for (int i=1;i<=n;i++)
+//         for (int j=w;j>=1;j--) {
+//             if (wt[i-1]<=j)
+//                 dp[j]=max(val[i-1]+dp[j-wt[i-1]],dp[j]);
+//         }
+//     return dp[w];
+// }
+// int main() {
+//     int n,w;
+//     cout<<"Entre The Size: ";
+//     cin>>n;
+//     cout<<"Entre The Weight: ";
+//     cin>>w;
+//     int wt[n];
+//     cout<<"Entre The Weight: ";
+//     for (int i=0;i<n;i++)
+//         cin>>wt[i];
+//     int val[n];
+//     cout<<"Entre The Value: ";
+//     for (int i=0;i<n;i++)
+//         cin>>val[i];
+//     cout<<knapsackproblem(w,wt,val,n);
+// }

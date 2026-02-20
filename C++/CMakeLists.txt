@@ -351,4 +351,9 @@ add_executable(codes
         Dynamic_programing/coins_change1.cpp
         "Dynamic_programing/0 - 1 Knapsack Problem.cpp"
         "Dynamic_programing/count_ways_to_Nth_Stair(order_does_not_matter).cpp"
+        Dynamic_programing/longest_common_subsequence.cpp
+        Dynamic_programing/longest_pallindromic_subsequence.cpp
+        Dynamic_programing/longest_repeatating_subsequence.cpp
+        Dynamic_programing/minimum_number_of_deletion_and_insertion.cpp
+        Dynamic_programing/form_a_pallindrome.cpp
 )
