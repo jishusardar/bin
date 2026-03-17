@@ -356,4 +356,7 @@ add_executable(codes
         Dynamic_programing/longest_repeatating_subsequence.cpp
         Dynamic_programing/minimum_number_of_deletion_and_insertion.cpp
         Dynamic_programing/form_a_pallindrome.cpp
+        Dynamic_programing/longest_common_substring.cpp
+        Dynamic_programing/longest_increasing_subsequence.cpp
+        Dynamic_programing/longest_arithmatic_progression.cpp
 )
