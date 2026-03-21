@@ -359,4 +359,9 @@ add_executable(codes
         Dynamic_programing/longest_common_substring.cpp
         Dynamic_programing/longest_increasing_subsequence.cpp
         Dynamic_programing/longest_arithmatic_progression.cpp
+        Dynamic_programing/Number_of_Unique_Paths.cpp
+        Dynamic_programing/Unique_Paths_in_a_grid.cpp
+        Dynamic_programing/minimum_path_sum.cpp
+        Dynamic_programing/best_time_to_buy_and_sell_stocks.cpp
+        Dynamic_programing/best_time_to_buy_and_sell_stock_2.cpp
 )
