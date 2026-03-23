@@ -364,4 +364,5 @@ add_executable(codes
         Dynamic_programing/minimum_path_sum.cpp
         Dynamic_programing/best_time_to_buy_and_sell_stocks.cpp
         Dynamic_programing/best_time_to_buy_and_sell_stock_2.cpp
+        Dynamic_programing/subset_sum_problem.cpp
 )
