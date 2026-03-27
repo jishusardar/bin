@@ -368,4 +368,5 @@ add_executable(codes
         Dynamic_programing/best_time_to_buy_stock_3.cpp
         Dynamic_programing/best_time_to_buy_and_sell_stock_III.cpp
         Dynamic_programing/best_time_to_buy_and_sell_stock_IV.cpp
+        Dynamic_programing/eggdropProblem.cpp
 )
