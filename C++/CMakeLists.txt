@@ -372,4 +372,5 @@ add_executable(codes
         Dynamic_programing/longest_Increasing_path_in_a_matrix.cpp
         Trie/Trie_Implementation.cpp
         Trie/Phone_Directory.cpp
+        Segment_Tree/Segment_Tree_implementation.cpp
 )
