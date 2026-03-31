@@ -373,4 +373,5 @@ add_executable(codes
         Trie/Trie_Implementation.cpp
         Trie/Phone_Directory.cpp
         Segment_Tree/Segment_Tree_implementation.cpp
+        Segment_Tree/Segment_Tree_max_sum.cpp
 )
