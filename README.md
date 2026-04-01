@@ -22,6 +22,7 @@ C++/
 ├── Prefix_and_Suffix/
 ├── queue/
 ├── recursion/
+|__ Segment Tree/
 ├── SlidingWindow/
 ├── sorting/
 ├── stack/
@@ -29,6 +30,7 @@ C++/
 ├── strings/
 ├── tools/
 ├── Tree/
+|__ Trie/
 └── Two_Pointer/
 ```
 
