@@ -1,1 +1,4 @@
+#ignore the exe files
 *.exe
+#ignore logs
+/cmake-build-debug
