@@ -2,3 +2,7 @@
 *.exe
 #ignore logs
 /cmake-build-debug
+#ignore idea configs
+.idea/
+#ignore vscode configs
+.vscode/
